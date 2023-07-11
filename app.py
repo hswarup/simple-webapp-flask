@@ -6,6 +6,10 @@ app = Flask(__name__)
 def main():
     return "Welcome!"
 
+@app.route('/weather')
+def weather():
+    return 'Well,what can I say? Its Melbourne!'
+    
 @app.route('/how are you')
 def hello():
     return 'I am good, how about you?'
