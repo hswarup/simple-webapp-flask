@@ -1,6 +1,8 @@
 FROM ubuntu:16.04
 #RUN apt-get update && apt-get install -y python3.7 python3.7-pip
 
+RUN add-apt-repository ppa:deadsnakes/ppa
+RUN apt-get update
 RUN apt install python3.7 -y
 
 # Make python 3.7 the default
