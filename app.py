@@ -9,7 +9,11 @@ def main():
 @app.route('/weather')
 def weather():
     return 'Well,what can I say? Its Melbourne!'
-    
+
+@app.route('/user')
+def weather():
+    return 'Hari'
+
 @app.route('/how are you')
 def hello():
     return 'I am good, how about you?'
