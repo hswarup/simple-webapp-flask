@@ -1,3 +1,3 @@
 # simple-webapp-flask
 
-## Used for trying out Openshift-Origin
+## Used for trying out Openshift-Origin.
